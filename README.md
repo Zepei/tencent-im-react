@@ -15,12 +15,12 @@ npm install --save tencent-im-react
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'tencent-im-react'
+import Tim from 'tencent-im-react'
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      <Tim />
     )
   }
 }
