@@ -31,7 +31,9 @@
 .ChatRight {
     flex-grow: 1;
     height: 100%;
-    background-color: wheat
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
 }
 
 .Title {
@@ -39,4 +41,16 @@
     width: 100%;
     background-color: darksalmon;
     margin-bottom: 5px;
+}
+
+.Content {
+    width: 100%;
+    flex-grow: 1;
+    background-color: brown;
+}
+
+.TextEditor {
+    width: 100%;
+    background-color: darkgreen;
+    height: 14.69vw;
 }

@@ -1,14 +1,17 @@
 import React, { Component } from 'react'
 
 import './App.css'
-import Tim from 'tencent-im-react'
+import {TimLayout, timHOC} from 'tencent-im-react';
 
-export default class App extends Component {
+class App extends Component {
   render () {
     return (
       <div className="App">
-        <Tim/>
+        <TimLayout/>
+        {console.log(window.webim)}
       </div>
     )
   }
 }
+
+export default timHOC(App);
